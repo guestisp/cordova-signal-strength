@@ -3,7 +3,7 @@ exec = require('cordova/exec');
 module.exports = {
 	// Get the signal strength as dBm
 	getdBm: function (successCallback, errorCallback) {
-		exec(successCallback, errorCallback, 'SignalStrength', 'getdBm', []);
+		return exec(successCallback, errorCallback, 'SignalStrength', 'getdBm', []);
 	},
 
 	// Get the signal strength as percentage of signal 0%... 100%
@@ -11,11 +11,11 @@ module.exports = {
 		options = options || {};
 		var typeNetwork = options.typeNetwork || 'notWifi';
 		args = [typeNetwork];
-		exec(successCallback, errorCallback, 'SignalStrength', 'getPercentage', args);
+		return exec(successCallback, errorCallback, 'SignalStrength', 'getPercentage', args);
 	},
 
 	// Get signal level from 0..4
 	getLevel: function (successCallback, errorCallback) {
-		exec(successCallback, errorCallback, 'SignalStrength', 'getLevel', []);
+		return exec(successCallback, errorCallback, 'SignalStrength', 'getLevel', []);
 	}
 }
