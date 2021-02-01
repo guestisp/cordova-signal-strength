@@ -18,8 +18,4 @@ function SignalStrength() {
 	};
 }
 
-if (!window.plugins) {
-	window.plugins = {};
-}
-
-window.plugins.SignalStrength = new SignalStrength();
+window.SignalStrength = new SignalStrength();
