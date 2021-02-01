@@ -16,7 +16,7 @@
     
     <asset src="www/signalStrength.js" target="js/signalStrength.js"/>
 
-    <js-module name="signalStrength" src="www/signalStrength.js">
+    <js-module name="SignalStrength" src="www/signalStrength.js">
         <clobbers target="window.plugins.signalStrength"/>
     </js-module>
 
