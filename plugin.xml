@@ -30,6 +30,6 @@
             <uses-permission android:name="android.permission.READ_PHONE_STATE" />
         </config-file>
 
-        <source-file src="src/android/SignalStrength.java" target-dir="src/org/apache/cordova/SignalStrength"/>
+        <source-file src="src/org/apache/cordova/plugin/SignalStrength.java" target-dir="src/org/apache/cordova/SignalStrength"/>
     </platform>
 </plugin>
