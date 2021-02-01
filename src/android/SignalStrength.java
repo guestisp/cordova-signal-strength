@@ -1,4 +1,4 @@
-package it.guestisp.plugin;
+package org.apache.cordova.plugin;
  
 import android.content.Context;
 import android.content.pm.PackageManager;
