@@ -7,8 +7,8 @@
     <description>An Android Cordova plugin to get Signal Strength.</description>
     <license>MIT</license>
     <keywords>cordova,android,signal,strength</keywords>
-    <repo>https://github.com/guestisp/cordova-plugin-aspolar-signal-strength</repo>
-    <issue>https://github.com/guestisp/cordova-plugin-aspolar-signal-strength/issues</issue>
+    <repo>https://github.com/guestisp/cordova-signal-strength</repo>
+    <issue>https://github.com/guestisp/cordova-signal-strength/issues</issue>
 
     <engines>
         <engine name="cordova" version=">=3.0.0"/>
