@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="cordova-aspolar-plugin-signal-strength" version="1.0.0"
+<plugin id="cordova-guestisp-plugin-signal-strength" version="1.0.0"
         xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -7,25 +7,24 @@
     <description>An Android Cordova plugin to get Signal Strength.</description>
     <license>MIT</license>
     <keywords>cordova,android,signal,strength</keywords>
-    <repo>https://github.com/JVasconsueloM/aspolar-signal-strength.git</repo>
-    <issue>https://github.com/JVasconsueloM/aspolar-signal-strength/issues</issue>
+    <repo>https://github.com/guestisp/cordova-plugin-aspolar-signal-strength</repo>
+    <issue>https://github.com/guestisp/cordova-plugin-aspolar-signal-strength/issues</issue>
 
     <engines>
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
     
-    <asset src="www/SignalStrength.js" target="js/SignalStrength.js"/>
+    <asset src="www/signalStrength.js" target="js/signalStrength.js"/>
 
-    <js-module name="SignalStrength" src="www/SignalStrength.js">
+    <js-module name="signalStrength" src="www/signalStrength.js">
         <clobbers target="window.plugins.signalStrength"/>
     </js-module>
 
     <!-- android -->
     <platform name="android">
-
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="SignalStrength">
-                <param name="android-package" value="com.aspolar.plugin.SignalStrength"/>
+            <feature name="signalStrength">
+                <param name="android-package" value="it.guestisp.plugin.signalStrength"/>
                 <param name="onload" value="true" />
             </feature>
 
@@ -34,9 +33,8 @@
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
             <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-            <uses-permission android:name="android.Manifest.permission.READ_PHONE_STATE" />
         </config-file>
 
-        <source-file src="src/android/SignalStrength.java" target-dir="src/com/aspolar/plugin/SignalStrength"/>
+        <source-file src="src/android/SignalStrength.java" target-dir="src/it/guestisp/plugin/SignalStrength"/>
     </platform>
 </plugin>

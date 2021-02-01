@@ -1,16 +1,16 @@
 {
-  "name": "cordova-aspolar-plugin-signal-strength",
+  "name": "cordova-guestisp-plugin-signal-strength",
   "version": "1.0.0",
   "description": "A sample for a new cordova plugin",
   "cordova": {
-    "id": "cordova-aspolar-plugin-signal-strength",
+    "id": "cordova-guestisp-plugin-signal-strength",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JVasconsueloM/aspolar-signal-strength.git"
+    "url": "git+https://github.com/guestisp/cordova-plugin-aspolar-signal-strength"
   },
   "keywords": [
     "cordova",
@@ -23,7 +23,7 @@
   "author": "AsPolar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JVasconsueloM/aspolar-signal-strength/issues"
+    "url": "https://github.com/guestisp/cordova-plugin-aspolar-signal-strength/issues"
   },
-  "homepage": "https://github.com/JVasconsueloM/aspolar-signal-strength#readme"
+  "homepage": "https://github.com/guestisp/cordova-plugin-aspolar-signal-strength#readme"
 }

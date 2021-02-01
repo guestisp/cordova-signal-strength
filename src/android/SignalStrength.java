@@ -1,4 +1,4 @@
-package com.aspolar.plugin;
+package it.guestisp.plugin;
  
 import android.content.Context;
 import android.content.pm.PackageManager;
