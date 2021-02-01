@@ -14,10 +14,10 @@
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
     
-    <asset src="www/signalStrength.js" target="js/signalStrength.js"/>
+    <asset src="www/SignalStrength.js" target="js/SignalStrength.js"/>
 
-    <js-module name="SignalStrength" src="www/signalStrength.js">
-        <clobbers target="window.plugins.signalStrength"/>
+    <js-module name="SignalStrength" src="www/SignalStrength.js">
+        <clobbers target="window.plugins.SignalStrength"/>
     </js-module>
 
     <!-- android -->

@@ -1,4 +1,4 @@
-function signalStrength() {
+function SignalStrength() {
 	// Get the signal strength as dBm
 	this.getdBm = function (successCallback, errorCallback) {
 		cordova.exec(successCallback, errorCallback, 'SignalStrength', 'getdBm', []);
@@ -22,4 +22,4 @@ if (!window.plugins) {
 	window.plugins = {};
 }
 
-window.plugins.signalStrength = new signalStrength();
+window.plugins.SignalStrength = new SignalStrength();
